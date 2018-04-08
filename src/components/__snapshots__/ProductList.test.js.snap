@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList matches snapshot 1`] = `
+<section
+  className="sc-EHOje jvCcfz"
+>
+  <article
+    className="sc-bdVaJa bUUZdf"
+  >
+    <img
+      alt="test-name"
+      className="sc-bwzfXH qVTvB"
+      src="http://via.placeholder.com/150x150"
+    />
+    <h1
+      className="sc-htpNat lloKWr"
+    >
+      test-name
+    </h1>
+    <span
+      className="sc-bxivhb jiHAbL"
+    >
+      £
+      1.50
+    </span>
+    <button
+      className="sc-ifAKCX cpSZLT"
+      onClick={[Function]}
+    >
+      Add to Basket
+    </button>
+  </article>
+  <article
+    className="sc-bdVaJa bUUZdf"
+  >
+    <img
+      alt="test-name-2"
+      className="sc-bwzfXH qVTvB"
+      src="http://via.placeholder.com/150x150"
+    />
+    <h1
+      className="sc-htpNat lloKWr"
+    >
+      test-name-2
+    </h1>
+    <span
+      className="sc-bxivhb jiHAbL"
+    >
+      £
+      3.95
+    </span>
+    <button
+      className="sc-ifAKCX cpSZLT"
+      onClick={[Function]}
+    >
+      Add to Basket
+    </button>
+  </article>
+</section>
+`;

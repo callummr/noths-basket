@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product matches snapshot 1`] = `
+<article
+  className="sc-bdVaJa bUUZdf"
+>
+  <img
+    alt="test-name"
+    className="sc-bwzfXH qVTvB"
+    src="http://test.image"
+  />
+  <h1
+    className="sc-htpNat lloKWr"
+  >
+    test-name
+  </h1>
+  <span
+    className="sc-bxivhb jiHAbL"
+  >
+    £
+    1.50
+  </span>
+  <button
+    className="sc-ifAKCX cpSZLT"
+    onClick={[Function]}
+  >
+    Add to Basket
+  </button>
+</article>
+`;

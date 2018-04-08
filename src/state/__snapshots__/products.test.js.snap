@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`products actions setProducts should match snapshot 1`] = `
+Object {
+  "payload": Array [
+    Object {
+      "id": "004",
+      "name": "Test product",
+      "price": 10.5,
+    },
+  ],
+  "type": "noths/products/SET_PRODUCTS",
+}
+`;
+
+exports[`products reducer should match default snapshot 1`] = `
+Array [
+  Object {
+    "id": "001",
+    "name": "Travel Card Holder",
+    "price": 9.25,
+  },
+  Object {
+    "id": "002",
+    "imageUrl": "/img/002.jpg",
+    "name": "Personalised Cufflinks",
+    "price": 45,
+  },
+  Object {
+    "id": "003",
+    "imageUrl": "/img/003.jpg",
+    "name": "Kids T-shirt",
+    "price": 19.95,
+  },
+]
+`;
+
+exports[`products reducer should match setProducts snapshot 1`] = `
+Array [
+  Object {
+    "id": "004",
+    "name": "Test product",
+    "price": 10.5,
+  },
+]
+`;

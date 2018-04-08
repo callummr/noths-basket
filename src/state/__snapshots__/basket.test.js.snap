@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basket reducer should match decrementItem snapshot 1`] = `Object {}`;
+
+exports[`basket reducer should match decrementItem snapshot 2`] = `
+Object {
+  "004": 2,
+  "005": 1,
+}
+`;
+
+exports[`basket reducer should match default snapshot 1`] = `Object {}`;
+
+exports[`basket reducer should match deleteItem snapshot 1`] = `Object {}`;
+
+exports[`basket reducer should match deleteItem snapshot 2`] = `
+Object {
+  "005": 1,
+}
+`;
+
+exports[`basket reducer should match incrementItem snapshot 1`] = `
+Object {
+  "004": 1,
+}
+`;
+
+exports[`basket reducer should match incrementItem snapshot 2`] = `
+Object {
+  "004": 4,
+  "005": 1,
+}
+`;
+
+exports[`basket reducer should match setItemCount snapshot 1`] = `
+Object {
+  "004": 2,
+}
+`;
+
+exports[`basket reducer should match setItemCount snapshot 2`] = `
+Object {
+  "004": 2,
+  "005": 1,
+}
+`;
+
+exports[`products actions decrementItem should match snapshot 1`] = `
+Object {
+  "payload": "004",
+  "type": "noths/basket/DECREMENT_ITEM",
+}
+`;
+
+exports[`products actions deleteItem should match snapshot 1`] = `
+Object {
+  "payload": "004",
+  "type": "noths/basket/DELETE_ITEM",
+}
+`;
+
+exports[`products actions incrementItem should match snapshot 1`] = `
+Object {
+  "payload": "004",
+  "type": "noths/basket/INCREMENT_ITEM",
+}
+`;
+
+exports[`products actions setItemCount should match snapshot 1`] = `
+Object {
+  "payload": Object {
+    "count": undefined,
+    "id": "004",
+  },
+  "type": "noths/basket/SET_ITEM_COUNT",
+}
+`;

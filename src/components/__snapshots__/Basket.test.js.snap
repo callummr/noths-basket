@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basket matches snapshot 1`] = `
+<aside
+  className="sc-bdVaJa uWOdI"
+>
+  <h1
+    className="sc-bwzfXH kTbnZQ"
+  >
+    Basket
+  </h1>
+  <table
+    className="sc-htpNat lfvxlQ"
+  >
+    <thead>
+      <tr>
+        <th>
+          Product name
+        </th>
+        <th>
+          qty
+        </th>
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          test-name
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          <button
+            className="sc-bxivhb jMmaYx"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <span>
+      Total: 
+    </span>
+    <span>
+      £
+      3.00
+    </span>
+  </div>
+</aside>
+`;
